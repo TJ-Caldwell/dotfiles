@@ -56,7 +56,7 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec urxvt
 
-for_window [class="termite"] floating enable
+for_window [class="urxvt"] floating enable
 
 for_window [class="steam"] floating enable
 
@@ -122,7 +122,7 @@ bindsym $mod+F2 exec steam
 bindsym $mod+F3 exec spotify
 
 #Launch Nautilus
-bindsym $mod+F4 exec nautilus
+bindsym $mod+F4 exec urxvt -e ranger
 
 #Launch Ncmpcpp
 #bindsym $mod+F5 exec ~/ncmpcpp.sh
@@ -136,10 +136,10 @@ bindsym $mod+F10 exec gedit ~/.i3/config
 bindsym $mod+Shift+button2 floating toggle
 bindsym --whole-window $mod+button2 kill
 
-bindsym $mod+Shift+g i3-msg 'gaps 0'
+#bindsym $mod+Shift+g i3-msg 'gaps 0'
 
 #Screenshot
-bindsym Print exec scrot
+bindsym $mod+Shift+p exec scrot
 
 #Volume Mute
 bindsym $mod+x exec amixer set Master toggle
@@ -286,8 +286,8 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-#bindsym $mod+s layout stacking
-#bindsym $mod+w layout tabbed
+bindsym $mod+g layout stacking
+bindsym $mod+b layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
