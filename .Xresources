@@ -1,169 +1,44 @@
+##### THIS FILE IS BEING CURRENTLY MANAGED BY URXVTCONFIG #####
+##### CHANGES DONE TO THIS FILE MANUALLY MAY AFFECT THE FUNCTIONALITY ######
+##### PROCEED WITH CAUTION! #####
 
-* {
-    selected-normal-foreground:  rgba ( 255, 255, 255, 100 % );
-    foreground:                  rgba ( 82, 93, 118, 100 % );
-    normal-foreground:           @foreground;
-    alternate-normal-background: rgba ( 245, 245, 245, 100 % );
-    red:                         rgba ( 220, 50, 47, 100 % );
-    selected-urgent-foreground:  rgba ( 220, 50, 47, 100 % );
-    blue:                        rgba ( 38, 139, 210, 100 % );
-    urgent-foreground:           rgba ( 220, 50, 47, 100 % );
-    alternate-urgent-background: rgba ( 245, 245, 245, 100 % );
-    active-foreground:           rgba ( 194, 202, 208, 100 % );
-    lightbg:                     rgba ( 238, 232, 213, 100 % );
-    selected-active-foreground:  rgba ( 194, 202, 208, 100 % );
-    alternate-active-background: rgba ( 245, 245, 245, 100 % );
-    background:                  rgba ( 255, 255, 255, 100 % );
-    bordercolor:                 rgba ( 245, 245, 245, 100 % );
-    alternate-normal-foreground: @foreground;
-    normal-background:           rgba ( 255, 255, 255, 100 % );
-    lightfg:                     rgba ( 88, 104, 117, 100 % );
-    selected-normal-background:  rgba ( 82, 148, 226, 100 % );
-    border-color:                @foreground;
-    spacing:                     2;
-    separatorcolor:              @foreground;
-    urgent-background:           rgba ( 255, 255, 255, 100 % );
-    selected-urgent-background:  rgba ( 82, 148, 226, 100 % );
-    alternate-urgent-foreground: @urgent-foreground;
-    background-color:            rgba ( 0, 0, 0, 0 % );
-    alternate-active-foreground: @active-foreground;
-    active-background:           rgba ( 255, 255, 255, 100 % );
-    selected-active-background:  rgba ( 82, 148, 226, 100 % );
-}
-#window {
-    background-color: @background;
-    border:           1;
-    padding:          5;
-}
-#mainbox {
-    border:  0;
-    padding: 0;
-}
-#message {
-    border:       2px 0px 0px ;
-    border-color: @separatorcolor;
-    padding:      1px ;
-}
-#textbox {
-    text-color: @foreground;
-}
-#listview {
-    fixed-height: 0;
-    border:       2px 0px 0px ;
-    border-color: @separatorcolor;
-    spacing:      2px ;
-    scrollbar:    true;
-    padding:      2px 0px 0px ;
-}
-#element {
-    border:  0;
-    padding: 1px ;
-}
-#element.normal.normal {
-    background-color: @normal-background;
-    text-color:       @normal-foreground;
-}
-#element.normal.urgent {
-    background-color: @urgent-background;
-    text-color:       @urgent-foreground;
-}
-#element.normal.active {
-    background-color: @active-background;
-    text-color:       @active-foreground;
-}
-#element.selected.normal {
-    background-color: @selected-normal-background;
-    text-color:       @selected-normal-foreground;
-}
-#element.selected.urgent {
-    background-color: @selected-urgent-background;
-    text-color:       @selected-urgent-foreground;
-}
-#element.selected.active {
-    background-color: @selected-active-background;
-    text-color:       @selected-active-foreground;
-}
-#element.alternate.normal {
-    background-color: @alternate-normal-background;
-    text-color:       @alternate-normal-foreground;
-}
-#element.alternate.urgent {
-    background-color: @alternate-urgent-background;
-    text-color:       @alternate-urgent-foreground;
-}
-#element.alternate.active {
-    background-color: @alternate-active-background;
-    text-color:       @alternate-active-foreground;
-}
-#scrollbar {
-    width:        4px ;
-    border:       0;
-    handle-width: 8px ;
-    padding:      0;
-}
-#sidebar {
-    border:       2px 0px 0px ;
-    border-color: @separatorcolor;
-}
-#button.selected {
-    background-color: @selected-normal-background;
-    text-color:       @selected-normal-foreground;
-}
-#inputbar {
-    spacing:    0;
-    text-color: @normal-foreground;
-    padding:    1px ;
-}
-#case-indicator {
-    spacing:    0;
-    text-color: @normal-foreground;
-}
-#entry {
-    spacing:    0;
-    text-color: @normal-foreground;
-}
-#prompt {
-    spacing:    0;
-    text-color: @normal-foreground;
-}
-
-
-/! Terminal Colors
-
-! special
-*.foreground:   #d7dde9
-*.background:   #030406
-*.cursorColor:  #d7dde9
-
+! special colors
+*.foreground:  #d6d6bb
+*.background:  #3b3b53
+*.cursorColor:  #d6d6bb
 ! black
-*.color0:       #05070c
-*.color8:       #68c5c1
-
+*.color0:      #54458E
+*.color8:      #e890c7
 ! red
-*.color1:       #10151d
-*.color9:       #fa9ca3
-
+*.color1:      #31c2ee
+*.color9:      #88daf8
 ! green
-*.color2:       #1f2733
-*.color10:      #82f683
-
+*.color2:      #51edce
+*.color10:     #a4eeb2
 ! yellow
-*.color3:       #354051
-*.color11:      #e68ae6
-
+*.color3:      #ff8a8a
+*.color11:     #a6a6de
 ! blue
-*.color4:       #505f78
-*.color12:      #89b9f9
-
+*.color4:      #636356
+*.color12:     #73bcc7
 ! magenta
-*.color5:       #7085a6
-*.color13:      #63d665
-
+*.color5:      #888876
+*.color13:     #f38e69
 ! cyan
-*.color6:       #a0b1ce
-*.color14:      #4fc4c0
-
+*.color6:      #b3b39c
+*.color14:     #56d3e7
 ! white
-*.color7:       #dde3ed
-*.color15:      #e9c966 */
+*.color7:      #e4e4c7
+*.color15:     #deacff
+
+URxvt*scrollBar:         false
+URxvt*scrollBar_right:   false
+
+URxvt*transparent:       false
+
+URxvt.font: xft:Noto Sans UI:pixelsize=14
+URxvt.letterSpace: -4
+
+*antialias:  true
+*autohint:   true
 
