@@ -9,11 +9,13 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #34344a
-background-alt = #515173
+
+background = #3A3A52
+background-alt = #606C92
+
 ;foreground = ${xrdb:color7:#222}
-foreground = #6aa0b9
-foreground-alt = #c2bbaa
+foreground = #FFE6E6
+foreground-alt = #6CCFE0
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
@@ -48,8 +50,8 @@ font-2 = siji:pixelsize=10;1
 font-3 = material-wifi:pixelsize=10;1
 
 modules-left = bspwm i3 xwindow
-modules-center = mpd 
-modules-right = filesystem xbacklight volume battery temperature redshift date network
+modules-center = 
+modules-right = mpd volume battery temperature date network
 
 ;tray-position = right
 ;tray-padding = 2
@@ -164,13 +166,13 @@ label-urgent-padding = ${module/bspwm.label-urgent-padding}
 
 [module/mpd]
 type = internal/mpd
-format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+format-online = <label-song>  <icon-prev> <toggle> <icon-next>
 
-icon-prev = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
+icon-prev = "  "
+icon-stop = "  "
+icon-play = "  "
+icon-pause = "  "
+icon-next = "  "
 
 label-song-maxlen = 25
 label-song-ellipsis = true

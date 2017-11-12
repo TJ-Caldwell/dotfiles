@@ -3,33 +3,33 @@
 ##### PROCEED WITH CAUTION! #####
 
 ! special colors
-*.foreground:  #d9dde9
-*.background:  #34344a
-*.cursorColor:  #d9dde9
+*.foreground:  #d6d6bb
+*.background:  #3b3b53
+*.cursorColor:  #d6d6bb
 ! black
-*.color0:      #ff2f4b
-*.color8:      #68c5c1
+*.color0:      #54458E
+*.color8:      #e890c7
 ! red
-*.color1:      #415ebc
-*.color9:      #fa9ca3
+*.color1:      #31c2ee
+*.color9:      #88daf8
 ! green
-*.color2:      #4ed386
-*.color10:     #82f683
+*.color2:      #51edce
+*.color10:     #a4eeb2
 ! yellow
-*.color3:      #eef46f
-*.color11:     #e68ae6
+*.color3:      #ff8a8a
+*.color11:     #a6a6de
 ! blue
-*.color4:      #7f83fe
-*.color12:     #89b9f9
+*.color4:      #636356
+*.color12:     #73bcc7
 ! magenta
-*.color5:      #f8448c
-*.color13:     #63d665
+*.color5:      #888876
+*.color13:     #f38e69
 ! cyan
-*.color6:      #4c85e6
-*.color14:     #4fc4c0
+*.color6:      #b3b39c
+*.color14:     #56d3e7
 ! white
-*.color7:      #dde3ed
-*.color15:      #e9c96
+*.color7:      #e4e4c7
+*.color15:     #deacff
 
 URxvt*scrollBar:         false
 URxvt*scrollBar_right:   false
