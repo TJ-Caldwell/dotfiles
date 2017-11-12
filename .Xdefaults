@@ -3,40 +3,40 @@
 ##### PROCEED WITH CAUTION! #####
 
 ! special colors
-*.foreground:  #93a1a1
-*.background:  #2c2439
-*.cursorColor:  #93a1a1
+*.foreground:  #d9dde9
+*.background:  #34344a
+*.cursorColor:  #d9dde9
 ! black
-*.color0:      #2c2439
-*.color8:      #657b83
+*.color0:      #ff2f4b
+*.color8:      #68c5c1
 ! red
-*.color1:      #dc322f
-*.color9:      #dc322f
+*.color1:      #415ebc
+*.color9:      #fa9ca3
 ! green
-*.color2:      #859900
-*.color10:     #859900
+*.color2:      #4ed386
+*.color10:     #82f683
 ! yellow
-*.color3:      #b58900
-*.color11:     #b58900
+*.color3:      #eef46f
+*.color11:     #e68ae6
 ! blue
-*.color4:      #268bd2
-*.color12:     #268bd2
+*.color4:      #7f83fe
+*.color12:     #89b9f9
 ! magenta
-*.color5:      #6c71c4
-*.color13:     #6c71c4
+*.color5:      #f8448c
+*.color13:     #63d665
 ! cyan
-*.color6:      #2aa198
-*.color14:     #2aa198
+*.color6:      #4c85e6
+*.color14:     #4fc4c0
 ! white
-*.color7:      #93a1a1
-*.color15:     #fdf6e3
+*.color7:      #dde3ed
+*.color15:      #e9c96
 
 URxvt*scrollBar:         false
 URxvt*scrollBar_right:   false
 
 URxvt*transparent:       false
 
-URxvt.font: xft:Noto Sans:pixelsize=13
+URxvt.font: xft:Noto Sans UI:pixelsize=14
 URxvt.letterSpace: -4
 
 *antialias:  true

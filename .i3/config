@@ -48,7 +48,7 @@ font pango:Noto Sans 10
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
 
-set $TERMINAL uvrxt
+set $TERMINAL urxvt
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -208,7 +208,7 @@ exec --no-startup-id xset s off -dpms
 
 # exec --no-startup-id redshift-gtk
 
-exec --no-startup-id feh --bg-scale ~/ZJmsxpv.png
+exec --no-startup-id feh --bg-scale ~/wallhaven-572943.jpg
 
 
 exec --no-startup-id nm-applet
@@ -232,6 +232,7 @@ exec --no-startup-id compton --backend glx --paint-on-overlay --vsync opengl-swc
  
 # exec --no-startup-id xfce4-panel
 
+# exec --no-startup-id "sh ~/.scripts/blurme -d ~/.fehbg"
 
 ###############
 #Custom Colors#
