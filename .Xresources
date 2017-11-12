@@ -36,7 +36,8 @@ URxvt*scrollBar_right:   false
 
 URxvt*transparent:       false
 
-URxvt.font: xft:Noto Sans UI:pixelsize=14
+URxvt.font: xft:Noto Sans:pixelsize=14
+
 URxvt.letterSpace: -4
 
 *antialias:  true
